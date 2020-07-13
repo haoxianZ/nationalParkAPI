@@ -44,7 +44,7 @@ function displayAddress (responseJson, maxResults){
     $(`#location${i}`).append(
       `
       
-      <h5>Address: ${responseJson.data[i].addresses[1].line1} ${responseJson.data[i].addresses[1].postalCode}</h5>
+      <h5>Address: ${responseJson.data[i].addresses[1].line1} Zipcode: ${responseJson.data[i].addresses[1].postalCode}</h5>
       
       `
     )};
